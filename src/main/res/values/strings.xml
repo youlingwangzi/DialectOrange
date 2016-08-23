@@ -2,4 +2,20 @@
     <string name="app_name">DialectOrange</string>
     <string name="app_name_chn">方言橙子</string>
     <string name="home_page">首页</string>
+    <string name="home_page_name1">瑟瑟</string>
+    <string name="home_page_name2">失恋女王</string>
+    <string name="home_page_name3">惶惶</string>
+    <string name="home_page_name4">幽灵</string>
+    <string name="home_page_time1">2分钟前</string>
+    <string name="home_page_time2">15分钟前</string>
+    <string name="home_page_time3">两天前</string>
+    <string name="home_page_time4">一周前</string>
+    <string name="home_page_hot">热门</string>
+    <string name="home_page_title1">黄渤教你地道“青普”</string>
+    <string name="home_page_title2">听张艺兴的长沙“哎呦喂”</string>
+    <string name="home_page_title3">闫妮的陕西话真的标准吗？</string>
+    <string name="home_page_title4">笑死啦！大连小伙教你各国人民说英语</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
