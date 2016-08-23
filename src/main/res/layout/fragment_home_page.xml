@@ -2,8 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.fycz.fragment.HomePage"
-    android:layout_marginBottom="60dp">
+    tools:context="com.fycz.fragment.HomePage">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

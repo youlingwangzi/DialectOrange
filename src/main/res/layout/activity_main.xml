@@ -7,14 +7,14 @@
     tools:context="com.fycz.dialectorange.MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="45dp"
         android:id="@+id/main_title"
         android:orientation="horizontal"
         android:layout_alignParentTop="true"
         android:background="@color/orange">
         <ImageButton
             android:layout_width="0dp"
-            android:layout_weight="10"
+            android:layout_weight="9"
             android:layout_height="match_parent"
             android:background="@color/orange"/>
         <TextView
@@ -27,7 +27,7 @@
             android:textSize="10pt"/>
         <ImageButton
             android:layout_width="0dp"
-            android:layout_weight="10"
+            android:layout_weight="9"
             android:layout_height="match_parent"
             android:background="@drawable/orange"/>
 
@@ -38,18 +38,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/main_title"
-        android:layout_weight="100">
+        android:paddingBottom="53dp">
     </FrameLayout>
 
     <com.flyco.tablayout.CommonTabLayout
         android:id="@+id/tl_1"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="53dp"
         android:background="#ffffff"
         android:paddingBottom="5dp"
         android:paddingTop="5dp"
         android:layout_alignParentBottom="true"
         tl:tl_indicator_color="@color/orange"
+        tl:tl_indicator_height="0dp"
         tl:tl_textSelectColor="@color/orange"
         tl:tl_textUnselectColor="@color/gray_word"
         tl:tl_underline_color="#DDDDDD"

@@ -20,13 +20,13 @@ public class MainActivity extends FragmentActivity {
 
     private String[] mTitles = {"首页", "寻味", "" , "后花园", "我的"};
     private int[] mIconUnselectIds = {
-            R.mipmap.tab_home_unselect, R.mipmap.tab_speech_unselect,
+            R.mipmap.tab_home_unselect1, R.mipmap.tab_speech_unselect1,
             R.mipmap.orange_nocolor,
-            R.mipmap.tab_contact_unselect, R.mipmap.tab_more_unselect};
+            R.mipmap.tab_contact_unselect1, R.mipmap.tab_more_unselect1};
     private int[] mIconSelectIds = {
-            R.mipmap.tab_home_select, R.mipmap.tab_speech_select,
+            R.mipmap.tab_home_select1, R.mipmap.tab_speech_select1,
             R.mipmap.orange,
-            R.mipmap.tab_contact_select, R.mipmap.tab_more_select};
+            R.mipmap.tab_contact_select1, R.mipmap.tab_more_select1};
     private ArrayList<CustomTabEntity> mTabEntities = new ArrayList<>();
     private CommonTabLayout mTabLayout_1;
 
