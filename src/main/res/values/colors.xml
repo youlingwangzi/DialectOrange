@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="orange">#fe9e01</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray_two">#ffdddddd</color>
+    <color name="gray_one">#ffefefef</color>
+    <color name="gray_three">#ffcccccc</color>
+    <color name="gray_four">#ffbbbbbb</color>
+    <color name="gray_five">#ff666666</color>
+    <color name="gray_word">#ffaaaaaa</color>
 </resources>

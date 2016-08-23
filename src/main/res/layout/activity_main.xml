@@ -3,10 +3,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
     tools:context="com.fycz.dialectorange.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:background="@color/orange">
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="match_parent"
+            android:background="@color/orange"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:text="@string/home_page"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="10pt"/>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="match_parent"
+            android:background="@drawable/orange"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_change"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100">
+    </FrameLayout>
+
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/tl_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:background="#ffffff"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        tl:tl_indicator_color="@color/orange"
+        tl:tl_textSelectColor="@color/orange"
+        tl:tl_textUnselectColor="@color/gray_word"
+        tl:tl_underline_color="#DDDDDD"
+        tl:tl_underline_height="0dp"/>
+
+</LinearLayout>
 
 </RelativeLayout>
