@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.fycz.fragment.HomePage">
+    tools:context="com.fycz.fragment.HomePage"
+    android:layout_marginBottom="60dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -10,11 +11,16 @@
 
             <android.support.v4.view.ViewPager
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="170dp"
                 android:id="@+id/home_page_vp"
                 android:background="@color/orange">
 
             </android.support.v4.view.ViewPager>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/shadow_gray_up"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -24,7 +30,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:background="@color/gray_two"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                     <ImageView
@@ -122,6 +128,12 @@
                         android:layout_alignParentEnd="true"/>
                 </RelativeLayout>
             </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/shadow_gray_up"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -130,7 +142,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:background="@color/gray_two"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                     <ImageView
@@ -228,6 +240,12 @@
                         android:layout_alignParentEnd="true"/>
                 </RelativeLayout>
             </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/shadow_gray_up"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -236,7 +254,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:background="@color/gray_two"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                     <ImageView
@@ -334,6 +352,12 @@
                         android:layout_alignParentEnd="true"/>
                 </RelativeLayout>
             </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/shadow_gray_up"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -342,7 +366,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:background="@color/gray_two"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                     <ImageView

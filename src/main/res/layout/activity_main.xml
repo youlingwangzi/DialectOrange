@@ -55,5 +55,17 @@
         tl:tl_underline_color="#DDDDDD"
         tl:tl_underline_height="0dp"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/shadow_gray_up"
+        android:layout_below="@id/main_title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/shadow_gray_down"
+        android:layout_above="@id/tl_1"/>
+
 
 </RelativeLayout>

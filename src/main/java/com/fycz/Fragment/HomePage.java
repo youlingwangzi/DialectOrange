@@ -7,14 +7,12 @@ import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.ImageView;
 
-import com.fycz.dialectorange.MainActivity;
 import com.fycz.dialectorange.R;
 
 import java.lang.ref.WeakReference;
@@ -142,7 +140,7 @@ public class HomePage extends Fragment {
         protected static final int MSG_PAGE_CHANGED  = 4;
 
         //轮播间隔时间
-        protected static final long MSG_DELAY = 3000;
+        protected static final long MSG_DELAY = 2000;
 
         //使用弱引用避免Handler泄露.这里的泛型参数可以不是Activity，也可以是Fragment等
         private WeakReference<HomePage> weakReference;
