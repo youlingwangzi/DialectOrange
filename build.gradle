@@ -8,8 +8,8 @@ android {
         applicationId "com.fycz.dialectorange"
         minSdkVersion 17
         targetSdkVersion 23
-        versionCode 109
-        versionName "0.1alpha9"
+        versionCode 111
+        versionName "0.1.11"
     }
     buildTypes {
         release {
