@@ -35,7 +35,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/orange"
+                        android:src="@drawable/touxiang"
                         android:layout_marginLeft="15dp"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
@@ -147,7 +147,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/orange"
+                        android:src="@drawable/touxiang1"
                         android:layout_marginLeft="15dp"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
@@ -259,7 +259,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/orange"
+                        android:src="@drawable/touxiang2"
                         android:layout_marginLeft="15dp"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"
@@ -371,7 +371,7 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/orange"
+                        android:src="@drawable/touxiang4"
                         android:layout_marginLeft="15dp"/>
                     <RelativeLayout
                         android:layout_width="wrap_content"

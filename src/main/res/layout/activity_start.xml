@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_marginTop="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/touxiang"
+        android:src="@drawable/touxiang2"
         android:layout_above="@+id/welcome_button"
         android:id="@+id/welcome_touxiang" />
 
@@ -48,6 +48,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:gravity="end"
+        android:textColor="@color/white"
         android:id="@+id/version_info"/>
 
 </RelativeLayout>

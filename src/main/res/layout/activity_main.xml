@@ -30,7 +30,7 @@
             android:layout_width="0dp"
             android:layout_weight="9"
             android:layout_height="match_parent"
-            android:background="@drawable/orange"/>
+            android:background="@drawable/touxiang2"/>
 
     </LinearLayout>
 

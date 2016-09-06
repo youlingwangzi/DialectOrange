@@ -4,12 +4,18 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.flyco.tablayout.SlidingTabLayout;
 import com.fycz.dialectorange.MainActivity;
 import com.fycz.dialectorange.R;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,6 +33,13 @@ public class HouhuayuanFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+
+    private ArrayList<Fragment> mFragments = new ArrayList<>();
+    private final String[] mTitles = {
+            "最新问题", "热门", "投票"
+    };
+    private MyPagerAdapter mAdapter;
 
     public HouhuayuanFragment() {
         // Required empty public constructor
@@ -63,7 +76,45 @@ public class HouhuayuanFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_houhuayuan, container, false);
+        View view = inflater.inflate(R.layout.fragment_houhuayuan, container, false);
+
+        mFragments.add(NewestQuestionFragment.newInstance("",""));
+        mFragments.add(HotQuestionFragment.newInstance("",""));
+        mFragments.add(VoteFragment.newInstance("",""));
+        ViewPager viewPager = (ViewPager)view.findViewById(R.id.viewpager);
+        mAdapter = new MyPagerAdapter(getFragmentManager());
+        viewPager.setAdapter(mAdapter);
+
+
+        /** indicator圆角色块 */
+        SlidingTabLayout tabLayout_9 = (SlidingTabLayout)view.findViewById(R.id.tl_9);
+
+        tabLayout_9.setViewPager(viewPager);
+
+        return view;
+    }
+
+
+
+    private class MyPagerAdapter extends FragmentPagerAdapter {
+        public MyPagerAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        @Override
+        public int getCount() {
+            return mFragments.size();
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return mTitles[position];
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return mFragments.get(position);
+        }
     }
 
 
