@@ -1,13 +1,225 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.fycz.fragment.YongqichengziFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-</FrameLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="294dp"
+                android:padding="8dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:src="@drawable/songxiaobao"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/playbutton"
+                    android:layout_centerInParent="true"/>
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/orange"
+                    android:id="@+id/touxiang1"
+                    android:layout_alignParentBottom="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_page_name1"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/touxiang1"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="7dp"
+                    android:paddingStart="15dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="294dp"
+                android:padding="8dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:src="@drawable/chenxiaochun"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/playbutton"
+                    android:layout_centerInParent="true"/>
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/orange"
+                    android:id="@+id/touxiang2"
+                    android:layout_alignParentBottom="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_page_name1"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/touxiang2"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="7dp"
+                    android:paddingStart="15dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="294dp"
+                android:padding="8dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:src="@drawable/dongqing"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/playbutton"
+                    android:layout_centerInParent="true"/>
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/orange"
+                    android:id="@+id/touxiang3"
+                    android:layout_alignParentBottom="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_page_name1"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/touxiang3"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="7dp"
+                    android:paddingStart="15dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="254dp"
+                android:padding="8dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/shuaixiaohuo"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/playbutton"
+                    android:layout_centerInParent="true"/>
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/orange"
+                    android:id="@+id/touxiang4"
+                    android:layout_alignParentBottom="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_page_name1"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/touxiang4"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="7dp"
+                    android:paddingStart="15dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="274dp"
+                android:padding="8dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:src="@drawable/wulinwaizhuan"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/playbutton"
+                    android:layout_centerInParent="true"/>
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/orange"
+                    android:id="@+id/touxiang5"
+                    android:layout_alignParentBottom="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_page_name1"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/touxiang5"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="7dp"
+                    android:paddingStart="15dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="294dp"
+                android:padding="8dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:src="@drawable/hanhong"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/playbutton"
+                    android:layout_centerInParent="true"/>
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/orange"
+                    android:id="@+id/touxiang6"
+                    android:layout_alignParentBottom="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_page_name1"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/touxiang6"
+                    android:layout_alignParentBottom="true"
+                    android:paddingBottom="7dp"
+                    android:paddingStart="15dp"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/more"
+                android:scaleType="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

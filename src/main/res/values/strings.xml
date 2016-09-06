@@ -6,6 +6,8 @@
     <string name="home_page_name2">失恋女王</string>
     <string name="home_page_name3">惶惶</string>
     <string name="home_page_name4">幽灵</string>
+    <string name="home_page_name5">你是我的我</string>
+    <string name="home_page_name6">陕西楞娃</string>
     <string name="home_page_time1">2分钟前</string>
     <string name="home_page_time2">15分钟前</string>
     <string name="home_page_time3">两天前</string>
@@ -27,6 +29,24 @@
     <string name="xunwei_shanximeishi">陕西美食</string>
     <string name="xunwei_shejiangshangdezhongguo">舌尖上的中国</string>
     <string name="xunwei_xiaoshihou">小时候</string>
+
+    <string name="houhuayuan_new_question">最新提问</string>
+    <string name="houhuayuan_toupiao">投票</string>
+    <string name="houhuayuan_yiyourenhuida">已有100人回答</string>
+    <string name="houhuayuan_wolaihuida">我来回答</string>
+    <string name="houhuayuan_ques1">有哪位朋友知道“哈呢么呀”是什么意思？</string>
+    <string name="houhuayuan_ques2">为啥贵阳五六岁的阿姨说自己“鳄不过是过女生”？
+    为啥贵阳人总把臀部成为“垫部”？为啥贵阳人称番薯为“饭熟”？为啥贵阳人称父亲为“老崽”？</string>
+    <string name="houhuayuan_ques3">东北话“我治你治你的卑服的”和济南话“旮旯”“嘎啦蚴子”都是什么意思？</string>
+    <string name="houhuayuan_ques4">求广东朋友教我几句广东话！本人现在在广东旅游，深感寸步难行。就语音我几句吃饭睡觉必不可少的……</string>
+    <string name="houhuayuan_ques5">在陕西关中方言和陕北方言有区别吗？</string>
+    <string name="houhuayuan_ques6">陕西关中方言中“你刻立马嚓把疙瘩角角的旮旯吗西拾掇了去”是什么意思？</string>
+
+    <string name="wode_name">萌~小呆</string>
+    <string name="wode_qianming">我就是吃吃吃吃吃吃吃！</string>
+    <string name="wode_haoyou">好友</string>
+    <string name="wode_fensi">粉丝</string>
+    <string name="wode_dongtai">我的动态</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

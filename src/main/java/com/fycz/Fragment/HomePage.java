@@ -12,7 +12,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.fycz.dialectorange.MainActivity;
 import com.fycz.dialectorange.R;
 
 import java.lang.ref.WeakReference;
@@ -73,6 +75,8 @@ public class HomePage extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home_page, container, false);
+
+
         //初始化iewPager的内容
         viewPager = (ViewPager) view.findViewById(R.id.home_page_vp);
         ImageView view1 = (ImageView) inflater.inflate(R.layout.item, null);
@@ -116,8 +120,6 @@ public class HomePage extends Fragment {
 
         return view;
     }
-
-
 
     private static class ImageHandler extends Handler {
         /**
@@ -189,6 +191,12 @@ public class HomePage extends Fragment {
 
     }
 
+/*    @Override
+    public void onResume(){
+        super.onResume();
+        MainActivity mainActivity = (MainActivity)getActivity();
+        mainActivity.mainTextView.setText("首页");
+    }*/
 
 
     private class ImageAdapter extends PagerAdapter {
