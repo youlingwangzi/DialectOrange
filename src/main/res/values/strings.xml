@@ -16,6 +16,18 @@
     <string name="home_page_title3">闫妮的陕西话真的标准吗？</string>
     <string name="home_page_title4">笑死啦！大连小伙教你各国人民说英语</string>
 
+    <string name="xunwei_today_title">今日推荐</string>
+    <string name="xunwei_guess_you_title">猜你喜欢</string>
+    <string name="xunwei_hubeiheizhimahu">湖北黑芝麻糊</string>
+    <string name="xunwei_guizhoulvdougao">【正宗】贵州绿豆糕</string>
+    <string name="xunwei_yunnanxianhuabing">云南鲜花饼</string>
+    <string name="xunwei_meiyanmeirong">养颜美容</string>
+    <string name="xunwei_bushen">补肾</string>
+    <string name="xunwei_kaoshibichi">考试必吃</string>
+    <string name="xunwei_shanximeishi">陕西美食</string>
+    <string name="xunwei_shejiangshangdezhongguo">舌尖上的中国</string>
+    <string name="xunwei_xiaoshihou">小时候</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

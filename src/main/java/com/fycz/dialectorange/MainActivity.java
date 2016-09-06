@@ -10,9 +10,9 @@ import com.flyco.tablayout.listener.CustomTabEntity;
 
 import com.fycz.fragment.HomePage;
 import com.fycz.entity.*;
+import com.fycz.fragment.XunweiFragment;
 
 import java.util.ArrayList;
-
 
 public class MainActivity extends FragmentActivity {
     private Context mContext = this;
@@ -39,14 +39,12 @@ public class MainActivity extends FragmentActivity {
         }
 
         mFragments.add(HomePage.newInstance("",""));
-        mFragments.add(HomePage.newInstance("",""));
+        mFragments.add(XunweiFragment.newInstance("",""));
         mFragments.add(HomePage.newInstance("",""));
         mFragments.add(HomePage.newInstance("",""));
         mFragments.add(HomePage.newInstance("",""));
 
         mTabLayout_1 = (CommonTabLayout) findViewById(R.id.tl_1);
         mTabLayout_1.setTabData(mTabEntities, this,R.id.fl_change, mFragments);
-
-
     }
 }
