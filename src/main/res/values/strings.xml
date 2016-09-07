@@ -19,6 +19,8 @@
     <string name="home_page_title4">笑死啦！大连小伙教你各国人民说英语</string>
 
     <string name="xunwei_today_title">今日推荐</string>
+
+    <string name="xunwei_title_pic_text">杨梅熟啦！酸甜可口、现摘现吃！</string>
     <string name="xunwei_guess_you_title">猜你喜欢</string>
     <string name="xunwei_hubeiheizhimahu">湖北黑芝麻糊</string>
     <string name="xunwei_guizhoulvdougao">【正宗】贵州绿豆糕</string>
@@ -41,7 +43,39 @@
     <string name="houhuayuan_ques3">东北话“我治你治你的卑服的”和济南话“旮旯”“嘎啦蚴子”都是什么意思？</string>
     <string name="houhuayuan_ques4">求广东朋友教我几句广东话！本人现在在广东旅游，深感寸步难行。就语音我几句吃饭睡觉必不可少的……</string>
     <string name="houhuayuan_ques5">在陕西关中方言和陕北方言有区别吗？</string>
+    <string name="houhuayuan_awser5">当然有区别了，陕西从地理上大致可分为秦岭以南山南地区，秦岭以北的关中平原，还有关中平原以北的黄土高原。三块地理位置有
+        不同的方言，由于关中平原地处陕西中部，是陕西文化的代表，因此在外地一般提起陕西话皆指关中方言。陕北黄土高原由于其独特的地理条件形成了以延安为中心的陕北
+        方言，陕北方言多后鼻音，陕北信天游、安塞腰鼓等非常有名，形成了独具特色的文化。秦岭以南陕南地区由于秦岭相隔，靠近四川重庆，其方言与四川方言较为接近
+        ，与关中方言有明显区别，但也独具特色。</string>
+
+    <string name="home_page_hotawser">热门回答</string>
     <string name="houhuayuan_ques6">陕西关中方言中“你刻立马嚓把疙瘩角角的旮旯吗西拾掇了去”是什么意思？</string>
+
+
+    <string name="houhuayuan_vote1">如果重新进行一次普通话投票，你希望粤语为代表的南方方言获胜，还是以北京话为代表的北方方言获胜？</string>
+    <string name="vote1a">A:南方方言</string>
+    <string name="vote1b">B:北方方言</string>
+    <string name="houhuayuan_vote2">你觉得粤语歌曲翻译成普通话后还好听吗？</string>
+    <string name="vote2a">A:好听</string>
+    <string name="vote2b">B:不好听</string>
+    <string name="houhuayuan_vote3">你认为最具代表行性的北方方言是哪里的方言？</string>
+    <string name="vote3a">A:北京话</string>
+    <string name="vote3b">B:天津话</string>
+    <string name="vote3c">C:东北话</string>
+    <string name="vote3d">D:陕西关中方言</string>
+    <string name="houhuayuan_vote4">现行的普通话与哪里的地方方言最为接近？</string>
+    <string name="vote4a">A:北京话</string>
+    <string name="vote4b">B:承德话</string>
+    <string name="vote4c">C:东北话</string>
+    <string name="vote4d">D:唐山话</string>
+    <string name="houhuayuan_vote5">你喜欢武林外传中佟掌柜的陕西方言吗？</string>
+    <string name="vote5a">A:喜欢</string>
+    <string name="vote5b">B:不喜欢</string>
+    <string name="houhuayuan_vote6">你怎么看待《猫和老师》各种方言配音版？</string>
+    <string name="vote6a">A:是创新接地气，挺好</string>
+    <string name="vote6b">B:画蛇添足</string>
+    <string name="vote6c">C:严重影响原动画片质量</string>
+    <string name="vote6d">D:失去了原来动画片的味道</string>
 
     <string name="wode_name">萌~小呆</string>
     <string name="wode_qianming">我就是吃吃吃吃吃吃吃！</string>

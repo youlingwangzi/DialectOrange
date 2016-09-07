@@ -25,91 +25,7 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/touxiang4"
-                    android:layout_marginLeft="15dp"/>
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="15dp">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:id="@+id/name1"
-                        android:layout_height="26dp"
-                        android:layout_marginLeft="5dp"
-                        android:paddingTop="6dp"
-                        android:gravity="center"
-                        android:textSize="8pt"
-                        android:text="@string/home_page_name1"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:id="@+id/time1"
-                        android:layout_height="15dp"
-                        android:layout_marginLeft="5dp"
-                        android:gravity="center"
-                        android:textSize="5pt"
-                        android:layout_below="@+id/name1"
-                        android:text="@string/home_page_time1"/>
-                </RelativeLayout>
-            </LinearLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingStart="15dp"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                android:paddingEnd="15dp">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="20dp"
-                    android:paddingStart="6dp"
-                    android:text="@string/houhuayuan_ques1"/>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="25dp"
-                android:background="@color/gray_one"
-                android:paddingStart="18dp"
-                android:paddingEnd="18dp">
-
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="25dp"
-                    android:layout_toRightOf="@+id/like_num1"
-                    android:id="@+id/talk1"
-                    android:src="@drawable/pic11"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:id="@+id/talk_num1"
-                    android:gravity="center_vertical"
-                    android:text="@string/houhuayuan_yiyourenhuida"
-                    android:layout_toRightOf="@+id/talk1"/>
-
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/pic13"
-                    android:layout_alignParentEnd="true"/>
-            </RelativeLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/white">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:background="@color/white"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="7dp"
-                android:orientation="horizontal">
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/touxiang2"
+                    android:src="@drawable/touxiang3"
                     android:layout_marginLeft="15dp"/>
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -135,20 +51,39 @@
                         android:text="@string/home_page_time1"/>
                 </RelativeLayout>
             </LinearLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="15dp"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
-                android:paddingEnd="15dp">
+                android:paddingEnd="15dp"
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingStart="6dp"
                     android:text="@string/houhuayuan_ques5"/>
 
-            </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_page_hotawser"
+                    android:background="@color/red"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_alignParentEnd="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="6dp"
+                    android:padding="9dp"
+                    android:textSize="13sp"
+                    android:text="@string/houhuayuan_awser5"/>
+
+            </LinearLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -178,6 +113,8 @@
                     android:layout_alignParentEnd="true"/>
             </RelativeLayout>
         </LinearLayout>
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -423,6 +360,92 @@
                     android:gravity="center_vertical"
                     android:text="@string/houhuayuan_yiyourenhuida"
                     android:layout_toRightOf="@+id/talk4"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/pic13"
+                    android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/touxiang4"
+                    android:layout_marginLeft="15dp"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/name1"
+                        android:layout_height="26dp"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="6dp"
+                        android:gravity="center"
+                        android:textSize="8pt"
+                        android:text="@string/home_page_name1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/time1"
+                        android:layout_height="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:textSize="5pt"
+                        android:layout_below="@+id/name1"
+                        android:text="@string/home_page_time1"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingEnd="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/houhuayuan_ques1"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="@color/gray_one"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_toRightOf="@+id/like_num1"
+                    android:id="@+id/talk1"
+                    android:src="@drawable/pic11"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/talk_num1"
+                    android:gravity="center_vertical"
+                    android:text="@string/houhuayuan_yiyourenhuida"
+                    android:layout_toRightOf="@+id/talk1"/>
 
                 <ImageView
                     android:layout_width="20dp"

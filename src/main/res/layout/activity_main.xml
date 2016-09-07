@@ -26,11 +26,17 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textSize="10pt"/>
-        <ImageButton
+        <RelativeLayout
             android:layout_width="0dp"
             android:layout_weight="9"
-            android:layout_height="match_parent"
-            android:background="@drawable/touxiang2"/>
+            android:layout_height="match_parent">
+            <ImageButton
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/touxiang2"
+                android:id="@+id/wodetouxiang"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
 
     </LinearLayout>
 

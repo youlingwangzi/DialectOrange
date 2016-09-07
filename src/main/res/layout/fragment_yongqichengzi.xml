@@ -31,13 +31,13 @@
                 <ImageView
                     android:layout_width="34dp"
                     android:layout_height="34dp"
-                    android:src="@drawable/orange"
+                    android:src="@drawable/touxiang2"
                     android:id="@+id/touxiang1"
                     android:layout_alignParentBottom="true"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/home_page_name1"
+                    android:text="@string/home_page_name4"
                     android:textColor="@color/black"
                     android:layout_toRightOf="@+id/touxiang1"
                     android:layout_alignParentBottom="true"
@@ -63,13 +63,13 @@
                 <ImageView
                     android:layout_width="34dp"
                     android:layout_height="34dp"
-                    android:src="@drawable/orange"
+                    android:src="@drawable/touxiang4"
                     android:id="@+id/touxiang2"
                     android:layout_alignParentBottom="true"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/home_page_name1"
+                    android:text="@string/home_page_name3"
                     android:textColor="@color/black"
                     android:layout_toRightOf="@+id/touxiang2"
                     android:layout_alignParentBottom="true"
@@ -95,7 +95,7 @@
                 <ImageView
                     android:layout_width="34dp"
                     android:layout_height="34dp"
-                    android:src="@drawable/orange"
+                    android:src="@drawable/touxiang3"
                     android:id="@+id/touxiang3"
                     android:layout_alignParentBottom="true"/>
                 <TextView
@@ -134,13 +134,13 @@
                 <ImageView
                     android:layout_width="34dp"
                     android:layout_height="34dp"
-                    android:src="@drawable/orange"
+                    android:src="@drawable/touxiang3"
                     android:id="@+id/touxiang4"
                     android:layout_alignParentBottom="true"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/home_page_name1"
+                    android:text="@string/home_page_name6"
                     android:textColor="@color/black"
                     android:layout_toRightOf="@+id/touxiang4"
                     android:layout_alignParentBottom="true"
@@ -166,13 +166,13 @@
                 <ImageView
                     android:layout_width="34dp"
                     android:layout_height="34dp"
-                    android:src="@drawable/orange"
+                    android:src="@drawable/touxiang5"
                     android:id="@+id/touxiang5"
                     android:layout_alignParentBottom="true"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/home_page_name1"
+                    android:text="@string/home_page_name2"
                     android:textColor="@color/black"
                     android:layout_toRightOf="@+id/touxiang5"
                     android:layout_alignParentBottom="true"
@@ -198,13 +198,13 @@
                 <ImageView
                     android:layout_width="34dp"
                     android:layout_height="34dp"
-                    android:src="@drawable/orange"
+                    android:src="@drawable/touxiang2"
                     android:id="@+id/touxiang6"
                     android:layout_alignParentBottom="true"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/home_page_name1"
+                    android:text="@string/home_page_name5"
                     android:textColor="@color/black"
                     android:layout_toRightOf="@+id/touxiang6"
                     android:layout_alignParentBottom="true"

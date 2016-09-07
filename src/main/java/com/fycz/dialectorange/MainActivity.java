@@ -4,6 +4,8 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.flyco.tablayout.CommonTabLayout;
@@ -36,6 +38,7 @@ public class MainActivity extends FragmentActivity{
     private CommonTabLayout mTabLayout_1;
 
     public TextView mainTextView;
+    public ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +49,7 @@ public class MainActivity extends FragmentActivity{
         }
 
         mainTextView=(TextView)findViewById(R.id.main_title_text);
+        imageView=(ImageView)findViewById(R.id.wodetouxiang);
 
         mFragments.add(HomePage.newInstance("",""));
         mFragments.add(XunweiFragment.newInstance("",""));
@@ -60,24 +64,28 @@ public class MainActivity extends FragmentActivity{
                 new OnTabSelectListener() {
                     @Override
                     public void onTabSelect(int position) {
+                        imageView.setVisibility(View.VISIBLE);
                         switch (position){
                             case 0:mainTextView.setText("首页");break;
                             case 1:mainTextView.setText("寻味");break;
                             case 2:mainTextView.setText("勇气橙子");break;
                             case 3:mainTextView.setText("后花园");break;
-                            case 4:mainTextView.setText("我的");break;
+                            case 4:mainTextView.setText("我的");
+                                imageView.setVisibility(View.INVISIBLE);break;
                             default:mainTextView.setText("首页");
                         }
                     }
 
                     @Override
                     public void onTabReselect(int position) {
+                        imageView.setVisibility(View.VISIBLE);
                             switch (position){
                                 case 0:mainTextView.setText("首页");break;
                                 case 1:mainTextView.setText("寻味");break;
                                 case 2:mainTextView.setText("勇气橙子");break;
                                 case 3:mainTextView.setText("后花园");break;
-                                case 4:mainTextView.setText("我的");break;
+                                case 4:mainTextView.setText("我的");
+                                    imageView.setVisibility(View.INVISIBLE);break;
                                 default:mainTextView.setText("首页");
                             }
                     }

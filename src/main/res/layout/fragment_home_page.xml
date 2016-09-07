@@ -18,8 +18,8 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="5dp"
-                android:background="@drawable/shadow_gray_up"/>
+                android:layout_height="8dp"
+                android:background="@color/gray_one"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -78,7 +78,9 @@
                         android:src="@drawable/home_pic_1"/>
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="20dp"
+                        android:layout_height="25dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
                         android:paddingStart="6dp"
                         android:background="@color/gray_two_alpha"
                         android:text="@string/home_page_title1"/>
@@ -130,8 +132,8 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="5dp"
-                android:background="@drawable/shadow_gray_up"/>
+                android:layout_height="8dp"
+                android:background="@color/gray_one"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -190,7 +192,8 @@
                         android:src="@drawable/home_pic_2"/>
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="20dp"
+                        android:layout_height="25dp"
+                        android:gravity="center_vertical"
                         android:paddingStart="6dp"
                         android:background="@color/gray_two_alpha"
                         android:text="@string/home_page_title2"/>
@@ -242,8 +245,8 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="5dp"
-                android:background="@drawable/shadow_gray_up"/>
+                android:layout_height="8dp"
+                android:background="@color/gray_one"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -283,14 +286,6 @@
                             android:textSize="5pt"
                             android:layout_below="@+id/name3"
                             android:text="@string/home_page_time1"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/home_page_hot"
-                            android:background="@color/red"
-                            android:textColor="@color/white"
-                            android:layout_marginTop="6dp"
-                            android:layout_alignParentEnd="true"/>
                     </RelativeLayout>
                 </LinearLayout>
                 <RelativeLayout
@@ -302,7 +297,9 @@
                         android:src="@drawable/home_pic_3"/>
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="20dp"
+                        android:layout_height="25dp"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
                         android:paddingStart="6dp"
                         android:background="@color/gray_two_alpha"
                         android:text="@string/home_page_title3"/>
@@ -354,8 +351,8 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="5dp"
-                android:background="@drawable/shadow_gray_up"/>
+                android:layout_height="8dp"
+                android:background="@color/gray_one"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -395,14 +392,6 @@
                             android:textSize="5pt"
                             android:layout_below="@+id/name4"
                             android:text="@string/home_page_time4"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/home_page_hot"
-                            android:background="@color/red"
-                            android:textColor="@color/white"
-                            android:layout_marginTop="6dp"
-                            android:layout_alignParentEnd="true"/>
                     </RelativeLayout>
                 </LinearLayout>
                 <RelativeLayout
@@ -414,7 +403,8 @@
                         android:src="@drawable/home_pic_4"/>
                     <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="20dp"
+                        android:layout_height="25dp"
+                        android:gravity="center_vertical"
                         android:paddingStart="6dp"
                         android:background="@color/gray_two_alpha"
                         android:text="@string/home_page_title4"/>

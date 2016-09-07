@@ -82,8 +82,8 @@ public class HomePage extends Fragment {
         ImageView view1 = (ImageView) inflater.inflate(R.layout.item, null);
         ImageView view2 = (ImageView) inflater.inflate(R.layout.item, null);
         ImageView view3 = (ImageView) inflater.inflate(R.layout.item, null);
-        view1.setImageResource(R.drawable.title_pic1);
-        view2.setImageResource(R.drawable.title_pic2);
+        view1.setImageResource(R.drawable.title_pic5);
+        view2.setImageResource(R.drawable.title_pic4);
         view3.setImageResource(R.drawable.title_pic3);
         ArrayList<ImageView> views = new ArrayList<>();
         views.add(view1);
@@ -117,6 +117,7 @@ public class HomePage extends Fragment {
         viewPager.setCurrentItem(Integer.MAX_VALUE/2);//默认在中间，使用户看不到边界
         //开始轮播效果
         handler.sendEmptyMessageDelayed(ImageHandler.MSG_UPDATE_IMAGE, ImageHandler.MSG_DELAY);
+        handler.sendEmptyMessageDelayed(ImageHandler.MSG_BREAK_SILENT,ImageHandler.MSG_DELAY);
 
         return view;
     }

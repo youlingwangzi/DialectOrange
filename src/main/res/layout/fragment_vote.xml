@@ -37,7 +37,7 @@
                         android:paddingTop="6dp"
                         android:gravity="center"
                         android:textSize="8pt"
-                        android:text="@string/home_page_name1"/>
+                        android:text="@string/home_page_name2"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:id="@+id/time1"
@@ -57,20 +57,33 @@
                         android:layout_alignParentEnd="true"/>
                 </RelativeLayout>
             </LinearLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="15dp"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
-                android:paddingEnd="15dp">
+                android:paddingEnd="15dp"
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
+                    android:layout_height="wrap_content"
                     android:paddingStart="6dp"
-                    android:text="@string/houhuayuan_ques1"/>
+                    android:text="@string/houhuayuan_vote1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote1a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote1b"/>
 
-            </RelativeLayout>
+            </LinearLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -129,7 +142,7 @@
                         android:paddingTop="6dp"
                         android:gravity="center"
                         android:textSize="8pt"
-                        android:text="@string/home_page_name1"/>
+                        android:text="@string/home_page_name4"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:id="@+id/time4"
@@ -149,20 +162,45 @@
                         android:layout_alignParentEnd="true"/>
                 </RelativeLayout>
             </LinearLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="15dp"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
-                android:paddingEnd="15dp">
+                android:paddingEnd="15dp"
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingStart="6dp"
-                    android:text="@string/houhuayuan_ques4"/>
+                    android:text="@string/houhuayuan_vote4"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote4a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote4b"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote4c"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote4d"/>
 
-            </RelativeLayout>
+            </LinearLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -231,30 +269,35 @@
                         android:textSize="5pt"
                         android:layout_below="@+id/name5"
                         android:text="@string/home_page_time1"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/home_page_hot"
-                        android:background="@color/red"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="6dp"
-                        android:layout_alignParentEnd="true"/>
                 </RelativeLayout>
             </LinearLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="15dp"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
-                android:paddingEnd="15dp">
+                android:paddingEnd="15dp"
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingStart="6dp"
-                    android:text="@string/houhuayuan_ques5"/>
+                    android:text="@string/houhuayuan_vote5"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote5a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote5b"/>
 
-            </RelativeLayout>
+            </LinearLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -323,30 +366,35 @@
                         android:textSize="5pt"
                         android:layout_below="@+id/name2"
                         android:text="@string/home_page_time1"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/home_page_hot"
-                        android:background="@color/red"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="6dp"
-                        android:layout_alignParentEnd="true"/>
                 </RelativeLayout>
             </LinearLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="15dp"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
-                android:paddingEnd="15dp">
+                android:paddingEnd="15dp"
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingStart="6dp"
-                    android:text="@string/houhuayuan_ques2"/>
+                    android:text="@string/houhuayuan_vote2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote2a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote2b"/>
 
-            </RelativeLayout>
+            </LinearLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -415,30 +463,47 @@
                         android:textSize="5pt"
                         android:layout_below="@+id/name6"
                         android:text="@string/home_page_time1"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/home_page_hot"
-                        android:background="@color/red"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="6dp"
-                        android:layout_alignParentEnd="true"/>
                 </RelativeLayout>
             </LinearLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="15dp"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
-                android:paddingEnd="15dp">
+                android:paddingEnd="15dp"
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingStart="6dp"
-                    android:text="@string/houhuayuan_ques6"/>
+                    android:text="@string/houhuayuan_vote6"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote6a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote6b"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote6c"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote6d"/>
 
-            </RelativeLayout>
+            </LinearLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -507,30 +572,47 @@
                         android:textSize="5pt"
                         android:layout_below="@+id/name3"
                         android:text="@string/home_page_time1"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/home_page_hot"
-                        android:background="@color/red"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="6dp"
-                        android:layout_alignParentEnd="true"/>
                 </RelativeLayout>
             </LinearLayout>
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="15dp"
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
-                android:paddingEnd="15dp">
+                android:paddingEnd="15dp"
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingStart="6dp"
-                    android:text="@string/houhuayuan_ques3"/>
+                    android:text="@string/houhuayuan_vote3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote3a"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote3b"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote3c"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:paddingStart="6dp"
+                    android:text="@string/vote3d"/>
 
-            </RelativeLayout>
+            </LinearLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"

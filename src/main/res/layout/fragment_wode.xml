@@ -152,7 +152,14 @@
                 android:orientation="vertical">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="30"
+                    android:src="@drawable/xiaoshihou"
+                    android:scaleType="centerCrop"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="70"
                     android:src="@drawable/ludoubing"
                     android:scaleType="centerCrop"/>
 
